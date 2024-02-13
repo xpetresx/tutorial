@@ -13,3 +13,8 @@ ln -fs $APP_PATH/rifle.conf $HOME/.config/ranger/rifle.conf
 ln -fs $APP_PATH/commands.py $HOME/.config/ranger/commands.py
 ln -fs $APP_PATH/rc.conf $HOME/.config/ranger/rc.conf
 ln -fs $APP_PATH/scope.sh $HOME/.config/ranger/scope.sh
+
+#add alias to .zshrc
+#echo "alias ranger='ranger --choosedir=\$HOME/.rangerdir; LASTDIR=\`cat \$HOME/.rangerdir\`; cd \"\$LASTDIR\"'" >> $HOME/.zshrc
+#echo "alias r='ranger'" >> $HOME/.zshrc
+
